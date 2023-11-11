@@ -14,15 +14,15 @@ namespace Portifolio
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            QuestaoA(40,this);
-            QuestaoB(this);
-            QuestaoC(this);
-            QuestaoD(this);
-            QuestaoE(this);
+            ExibirImpares(40,this);
+            CalcularSomaDosPrimeiros100B(this);
+            ObterNumerosDivisiveisPor4(this);
+            ObterQuadradosDe15a200(this);
+            SomarValoresParesDe1a50(this);
         }
 
       
-        static void QuestaoA(int limite, Form1 form)
+        static void ExibirImpares(int limite, Form1 form)
         {
             string result = "";
             for (int i = 1; i <= limite; i += 2)
@@ -30,9 +30,9 @@ namespace Portifolio
                 Console.Write(i + " ");
                 result = result + "," + i.ToString();
             }
-            form.A.Text = "RESPOSTA : " + result;
+            form.ResultadoQuestaoA.Text = "RESPOSTA : " + result;
         }
-        static void QuestaoB(Form1 form)
+        static void CalcularSomaDosPrimeiros100B(Form1 form)
         {
             int soma = 0;
 
@@ -42,9 +42,9 @@ namespace Portifolio
             }
 
  
-            form.B.Text = "RESPOSTA : " + soma.ToString();
+            form.ResultadoQuestaoB.Text = "RESPOSTA : " + soma.ToString();
         }
-        static void QuestaoC(Form1 form)
+        static void ObterNumerosDivisiveisPor4(Form1 form)
         {
             string result = "";
             for (int i = 1; i < 100; i++)
@@ -55,9 +55,9 @@ namespace Portifolio
                 }
             }
 
-            form.C.Text = "RESPOSTA : " +  result;
+            form.ResultadoQuestaoC.Text = "RESPOSTA : " +  result;
         }
-        static void QuestaoD(Form1 form)
+        static void ObterQuadradosDe15a200(Form1 form)
         {
 
             string quadrados = "";
@@ -76,10 +76,10 @@ namespace Portifolio
                     quadrados += "\n";
                 }
             }
-            form.D.Font = new Font(form.D.Font.FontFamily, 10);
-            form.D.Text = "RESPOSTA : " + quadrados;
+            form.ResultadoQuestaoD.Font = new Font(form.ResultadoQuestaoD.Font.FontFamily, 10);
+            form.ResultadoQuestaoD.Text = "RESPOSTA : " + quadrados;
         }
-        static void QuestaoE(Form1 form)
+        static void SomarValoresParesDe1a50(Form1 form)
         {
             int soma = 0;
 
@@ -93,7 +93,12 @@ namespace Portifolio
                 }
             }
 
-            form.E.Text = "RESPOSTA : "+ soma.ToString(); ;
+            form.ResultadoQuestaoE.Text = "RESPOSTA : "+ soma.ToString(); ;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

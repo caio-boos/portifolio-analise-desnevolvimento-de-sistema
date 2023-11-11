@@ -2,9 +2,9 @@ C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\bin\Deb
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\bin\Debug\Portifolio.exe
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\bin\Debug\Portifolio.pdb
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.csproj.AssemblyReference.cache
-C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.Form1.resources
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.Properties.Resources.resources
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.csproj.GenerateResource.cache
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.csproj.CoreCompileInputs.cache
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.exe
 C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.pdb
+C:\faculdade\analise e desenvolvimento de sistemas\Portifolio\Portifolio\obj\Debug\Portifolio.Form1.resources
