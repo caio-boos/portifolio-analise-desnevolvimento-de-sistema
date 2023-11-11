@@ -14,24 +14,15 @@ namespace Portifolio
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ExibirImpares(40,this);
-            CalcularSomaDosPrimeiros100B(this);
-            ObterNumerosDivisiveisPor4(this);
-            ObterQuadradosDe15a200(this);
-            SomarValoresParesDe1a50(this);
+            QuestaoA(40,this);
+            QuestaoB(this);
+            QuestaoC(this);
+            QuestaoD(this);
+            QuestaoE(this);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            // Se você precisar de ações ao clicar no botão, você pode adicionar o código aqui
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            // Se você precisar de ações ao clicar na label, você pode adicionar o código aqui
-        }
-
-        static void ExibirImpares(int limite, Form1 form)
+      
+        static void QuestaoA(int limite, Form1 form)
         {
             string result = "";
             for (int i = 1; i <= limite; i += 2)
@@ -39,9 +30,9 @@ namespace Portifolio
                 Console.Write(i + " ");
                 result = result + "," + i.ToString();
             }
-            form.ResultadoQuestaoA.Text = result;
+            form.A.Text = "RESPOSTA : " + result;
         }
-        static void CalcularSomaDosPrimeiros100B(Form1 form)
+        static void QuestaoB(Form1 form)
         {
             int soma = 0;
 
@@ -51,9 +42,9 @@ namespace Portifolio
             }
 
  
-            form.ResultadoQuestaoB.Text = soma.ToString();
+            form.B.Text = "RESPOSTA : " + soma.ToString();
         }
-        static void ObterNumerosDivisiveisPor4(Form1 form)
+        static void QuestaoC(Form1 form)
         {
             string result = "";
             for (int i = 1; i < 100; i++)
@@ -64,9 +55,9 @@ namespace Portifolio
                 }
             }
 
-            form.ResultadoQuestaoC.Text = result;
+            form.C.Text = "RESPOSTA : " +  result;
         }
-        static void ObterQuadradosDe15a200(Form1 form)
+        static void QuestaoD(Form1 form)
         {
 
             string quadrados = "";
@@ -85,10 +76,10 @@ namespace Portifolio
                     quadrados += "\n";
                 }
             }
-            form.ResultadoQuestaoD.Font = new Font(form.ResultadoQuestaoD.Font.FontFamily, 10);
-            form.ResultadoQuestaoD.Text = quadrados;
+            form.D.Font = new Font(form.D.Font.FontFamily, 10);
+            form.D.Text = "RESPOSTA : " + quadrados;
         }
-        static void SomarValoresParesDe1a50(Form1 form)
+        static void QuestaoE(Form1 form)
         {
             int soma = 0;
 
@@ -102,7 +93,7 @@ namespace Portifolio
                 }
             }
 
-            form.ResultadoQuestaoE.Text = soma.ToString(); ;
+            form.E.Text = "RESPOSTA : "+ soma.ToString(); ;
         }
     }
 }
